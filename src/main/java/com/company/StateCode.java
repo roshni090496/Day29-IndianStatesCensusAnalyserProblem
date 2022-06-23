@@ -6,8 +6,8 @@ import java.util.List;
 
     public class StateCode {
         public static void main(String[] args) throws StateSensorAnalyserException, IOException {
-            String filePathRead = "C:\\Users\\Roshni\\IdeaProjects\\Day29-IndianStatesCensusAnalyserProblem\\src\\main\\resources";
-            String fileName = "StateCode";
+            String filePathRead = "C:\\Users\\Roshni\\IdeaProjects\\Day29-IndianStatesCensusAnalyserProblem\\src\\main\\resources\\StateCode1.csv";
+            String fileName = "StateCode1";
             String delimiter = ",";
             List<String> stringName = new ArrayList<>();
             stringName.add("SrNo");

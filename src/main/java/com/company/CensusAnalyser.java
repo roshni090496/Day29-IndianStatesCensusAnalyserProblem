@@ -10,7 +10,7 @@ import java.util.List;
     public class CensusAnalyser{
         public static void main(String[] args) throws IOException, StateSensorAnalyserException {
             System.out.println("Welcome To The Program");
-            String filePathRead = "C:\\Users\\Roshni\\IdeaProjects\\Day29-IndianStatesCensusAnalyserProblem\\src\\main\\resources";
+            String filePathRead = "C:\\Users\\Roshni\\IdeaProjects\\Day29-IndianStatesCensusAnalyserProblem\\stateWise-census-data-in-india-1901-2011";
             String fileName = "stateWise-census-data-in-india-1901-2011";
             String delimiter =",";
             List<String> stringName = new ArrayList<>();
